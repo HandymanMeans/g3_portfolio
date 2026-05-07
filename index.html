@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>G3 - Portfólio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="#inicio">Início</a>
+    <a href="#prova">Experiência</a>
+    <a href="#contato">Contato</a>
+  <button id="themeToggle" class="btn ghost">🌙</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="card hero">
+    <h1>G3</h1>
+    <p class="muted">
+      Estudante de ADS | Foco em Suporte de TI | Interesse em análise e resolução de sistemas
+    </p>
+
+    <div class="actions">
+      <a href="#prova" class="btn">Ver experiência</a>
+<a href="#contato" class="btn ghost">Contato</a>
+    </div>
+  </section>
+
+  <!-- PROVA -->
+  <section id="prova" class="card">
+    <h2>Experiência & Projetos</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>IFSC — Suporte de TI</h3>
+        <ul>
+          <li>Atendimento a usuários</li>
+          <li>Diagnóstico de problemas</li>
+          <li>Organização de equipamentos</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Portfólio Profissional</h3>
+        <p class="muted">HTML + CSS + JS com foco em organização e UX</p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="card">
+    <h2>Contato</h2>
+
+    <form id="form" action="https://formspree.io/f/meenajdq" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="message" placeholder="Mensagem" required></textarea>
+
+      <button type="submit" id="btn">
+        <span class="btn-text">Enviar</span>
+        <span class="loader hidden"></span>
+      </button>
+    </form>
+
+  </section>
+
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="toast">Mensagem enviada com sucesso!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
