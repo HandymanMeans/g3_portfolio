@@ -12,3 +12,5 @@ Desenvolvido utilizando:
 - JavaScript
 
 Projeto hospedado para fins de estudo, apresentação e evolução contínua.
+
+ https://handymanmeans.github.io/g3_portfolio/
